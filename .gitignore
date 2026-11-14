@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Firebase local cache
+.firebase/
+
+# Service account credentials
+*service-account*.json
+*serviceAccount*.json
+*-adminsdk-*.json
+
+# Private keys
+*.pem
+*.key
+
+# Editor
+.vscode/*
+.idea/
+.DS_Store
